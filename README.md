@@ -107,7 +107,7 @@ Putnam
 | 9       | ReProver w/o retrieval  🟩                        | Whole Proof Generation | 0          | 1                   |  
 </div>
 
-**Caption:** Our model rank the 1st on [Putnam Leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). The performance numbers for existing works are taken from the leaderboard. 🟩  indicates open sourced models.
+**Caption:** Our model ranks the 1st on [Putnam Leaderboard](https://trishullab.github.io/PutnamBench/leaderboard.html). The performance numbers for existing works are taken from the leaderboard. 🟩  indicates open sourced models.
 
 ## 3. Model and Dataset Downloads
 
@@ -183,7 +183,7 @@ To run inference on our model and reproduce the performance on miniF2F. You can 
 ```sh
 sh eval/eval.sh -i datasets/minif2f.jsonl -s test -m Goedel-LM/Goedel-Prover-SFT -o results/minif2f/Godel-Prover-SFT -n 32 -g 2  -c 128
 ```
-The results is summarized in `results/minif2f/Godel-Prover-SFT/compilation_summarize.json`
+The results are summarized in `results/minif2f/Godel-Prover-SFT/compilation_summarize.json`
 
 Specify the arguments as follows:
 * `-i`: the dataset path to evaluate
